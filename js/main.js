@@ -5,7 +5,6 @@
 
 //main javaScript functions
 function calculate(){
-  debugger;
   var enteredAmount = document.getElementById('amount').value;
   var selected = document.getElementsByTagName('select')[0].selectedOptions;
   var num = parseInt(enteredAmount);
@@ -19,7 +18,7 @@ function calculate(){
 //changes the inner html of the result div to the tip amount
 function writeAnswer(tipAmount){
   var answer = document.getElementById('result');
-      result.innerHTML = "$" + tipAmount.toFixed(2);
+      result.innerHTML = "You should tip $" + tipAmount.toFixed(2);
 }
 
 
