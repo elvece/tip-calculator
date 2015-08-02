@@ -5,9 +5,9 @@
 
 //main javaScript functions
 function calculate(){
-  var enteredAmount = document.getElementById('amount').value;
+  var enteredAmount = document.getElementById('amount').value.replace("$", "");
   var selected = document.getElementsByTagName('select')[0].selectedOptions;
-  var num = parseInt(enteredAmount);
+  var num = Number(enteredAmount);
   var percent = Number(selected[0].value);
   var total = num * percent;
   return total;
