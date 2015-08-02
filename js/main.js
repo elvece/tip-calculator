@@ -4,28 +4,24 @@
 // });
 
 //main javaScript functions
-function calculate(){
-  var enteredAmount = document.getElementById('amount').value.replace("$", "");
-  var selected = document.getElementsByTagName('select')[0].selectedOptions;
-  var num = Number(enteredAmount);
-  var percent = Number(selected[0].value);
-  var total = num * percent;
-  return total;
+function calculate(price, amount){
+  var tipAmount = price * amount;
+  return tipAmount;
 }
 
 //DOM functions
 
 //changes the inner html of the result div to the tip amount
-function writeAnswer(tipAmount){
+function writeAnswer(tip){
   var answer = document.getElementById('result');
-      result.innerHTML = "You should tip $" + tipAmount.toFixed(2);
+  result.innerHTML = "You should tip $" + tip.toFixed(2);
 }
 
-
+//adds button click functionality to run the calculate and writeAnswer functions after getting the value from the text input field and the dropdown menu
 document.getElementById("calculate").addEventListener("click", function(){
-  var result = calculate();
+  var enteredAmount = Number(document.getElementById('amount').value.replace("$", ""));
+  var selected = Number(document.getElementsByTagName('select')[0].selectedOptions[0].value);
+  var result = calculate(enteredAmount, selected);
   writeAnswer(result);
 });
 
-
-//calling functions
