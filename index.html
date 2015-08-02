@@ -14,22 +14,22 @@
 
       <div class="col-md-4 col-md-offset-4 col-xs-4 col-xs-offset-4">
 
-        <input type="text" class="form-control" placeholder="Enter an amount...">
+        <input type="text" id="amount" class="form-control" placeholder="Enter an amount...">
 
         <div class="tip-amount">
 
-          <select class="form-control">
+          <select class="form-control" id="percent">
             <option value="" selected disabled>How much?</option>
-            <option value="0.01">10%</option>
-            <option value="0.02">20%</option>
-            <option value="0.03">30%</option>
+            <option value="0.1">10%</option>
+            <option value="0.2">20%</option>
+            <option value="0.3">30%</option>
           </select>
 
         </div>
 
-        <button class="btn btn-primary">Calculate Tip</button>
+        <button id="calculate" class="btn btn-primary">Calculate Tip</button>
 
-        <div class="result">
+        <div id="result">
         </div>
       </div>
     </div>
