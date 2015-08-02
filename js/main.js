@@ -12,6 +12,8 @@ document.getElementById("calculate").addEventListener("click", function(){
   result.innerHTML = "You should tip $" + Number(calculate(enteredAmount, selected)).toFixed(2);
 });
 
+
+
 //jQuery ready section to refactor in later
 // $(document).on('ready', function() {
 //   console.log('sanity check!');
