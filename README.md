@@ -1,8 +1,10 @@
-# Tip Calculator
+## Tip Calculator
+
+***This repo contains my solution to the following exercise:***
 
 Please skim through this entire document first.  Specific instructions for what to do (and in which order) appear further down.
 
-## Set the stage
+### Set the stage
 
 - Clear the stage (close all other terminal tabs, chrome tabs, email etc...)
 - Figure out the "what" and "why" by a) reading through objectives and b) reading through the activities below
@@ -26,7 +28,7 @@ By the end of this lesson you should be able to:
 
 Being able to keep your code organized is crucial to keeping the long-term cost of software development low.  Being able to refactor large functions that do multiple things into smaller functions that each do one thing well is one technique for lowering the long-term cost of software.
 
-## Activities
+### Activities
 
 **Get Setup**
 
@@ -65,7 +67,7 @@ Self-assess:
 - Is your HTML valid according to https://validator.w3.org/nu/ ?
   - Use the "text input" option and paste your HTML
   - If not, fix any errors and revalidate
-- Are you using inline styles or style elements to center the fields?  
+- Are you using inline styles or style elements to center the fields?
   - If so, move any `style` attributes or `center` tags to the linked css file
 - When you click in the amount field and start typing, does the initial text disappear?
   - If not, you may have used `value` instead of `placeholder`, as indicated by the wireframe
@@ -186,7 +188,7 @@ Check your work:
 
 Commit
 
-## Stretch
+### Stretch
 
 **Users see the tip amount update as they type**
 
@@ -195,7 +197,7 @@ Commit
 
 HINT: look for the `input` event on the text field, and the `change` event for the dropdown.
 
-## Reflect: Self-asses
+### Reflect: Self-asses
 
 Go to the "Objectives" section of this README.  Go through each one and ask yourself:
 
@@ -208,13 +210,13 @@ Go to the "Key Terms" section of this README.  For each word, ask yourself:
 
 If you haven't completed an objective, or you can't define a term, take a few minutes to try to fill in any gaps.
 
-## Reflect: Ask new questions
+### Reflect: Ask new questions
 
 What new questions do you have now that you've gone through this exercise?
 
 List at least 4 here:
 
-1. 
-1. 
-1. 
-1. 
+1.
+1.
+1.
+1.
