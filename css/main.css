@@ -1,1 +1,8 @@
-/* add custom styles */
+body {
+  text-align: center;
+}
+
+div {
+  margin: 3em auto;
+}
+
