@@ -32,4 +32,4 @@ $(document).on('ready', function() {
     }
   });
 });
-//if bad amount, put something in result that says bad, also notify user that they need to select a tip amoutn first
+//if bad amount, put something in result that says bad, also notify user that they need to select a tip amount first
